@@ -17,6 +17,13 @@
         <oca.version>4.8.0</oca.version>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>indra</id>
+            <url>http://88.3.208.228:8080/artifactory/repo</url>
+        </repository>
+    </repositories>
+
     <dependencies>
         <dependency>
             <groupId>org.apache.hadoop</groupId>
