@@ -7,7 +7,14 @@ class Datacenter {
     private List<Cluster> clusters ;
     
     public Datacenter() {
-        // TODO Auto-generated constructor stub
+    }
+
+    public List<Cluster> getClusters() {
+      return clusters;
+    }
+
+    public void setClusters(List<Cluster> clusters) {
+      this.clusters = clusters;
     }
 
 }
