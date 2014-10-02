@@ -29,6 +29,4 @@ class Host {
         this.hostname = hostname;
     }
 
-    
-    
 }

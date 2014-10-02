@@ -7,7 +7,14 @@ class Cluster {
     private List<Host> hosts ;
     
     public Cluster() {
-        // TODO Auto-generated constructor stub
+    }
+
+    public List<Host> getHosts() {
+      return hosts;
+    }
+
+    public void setHosts(List<Host> hosts) {
+      this.hosts = hosts;
     }
 
 }
