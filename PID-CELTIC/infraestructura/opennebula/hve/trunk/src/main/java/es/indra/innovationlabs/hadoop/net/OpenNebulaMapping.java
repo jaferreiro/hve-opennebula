@@ -60,7 +60,7 @@ public class OpenNebulaMapping extends Configured implements DNSToSwitchMapping 
         return this.ocaClient ;
     }
 
-    private void CargarInfo() {
+    private void cargarInfo() {
         HostPool hostPool = new HostPool(ocaClient) ;
         Iterator<org.opennebula.client.host.Host> hostIt = hostPool.iterator() ;
         while (hostIt.hasNext()) {
